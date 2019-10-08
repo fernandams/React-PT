@@ -2,7 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+// let variável = 0; // pra acessar a variável de outro arquivo deve ter na frente o export
+//export default variável // pra fazer export como default pra uma variável tem que ser em outra linha
+
+function App() { // se n tivesse o export no final poderia ser aqui: export default function App(){
   return (
     <div className="App">
       <header className="App-header">
