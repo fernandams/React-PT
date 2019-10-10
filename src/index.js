@@ -15,13 +15,7 @@ import * as serviceWorker from "./serviceWorker";
 //     document.getElementById('root'));
 
 ReactDOM.render(
-  <>
-    <h1> Hello World! OI SDDDSSSS </h1>
-    <ul>
-      <li>Oi sdds </li>
-      <li> OBRIGADA KEVIN S2 VC ARRASA</li>
-    </ul>
-  </>,
+  < App />,
   document.getElementById("root")
 );
 
